@@ -29,7 +29,7 @@
 			"#define maxall(x) *max_element(all(x))",
 			"#define minall(x) *min_element(all(x))",
 			"#define heap priority_queue",
-			"#define pb push_back",
+			"#define pb emplace_back",
 			"#define MOD 1000000007",
 			"#define NAME \"${TM_FILENAME_BASE}\"",
 			"",

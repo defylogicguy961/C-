@@ -32,6 +32,7 @@ void solve()
     for (int t = 0; t < m; t++)
         for (int i = 0; i < n; i++)
             st[t][i][0] = a[i][t];
+
     for (int t = 0; t < m; t++)
         for (int j = 1; j < lg[n] + 1; j++)
             for (int i = 0; i + (1 << j) <= n; i++)

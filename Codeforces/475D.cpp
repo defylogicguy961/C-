@@ -36,7 +36,6 @@ void solve()
         int k = lg[r - l + 1];
         return __gcd(st[l][k], st[r - (1 << k) + 1][k]);
     };
-
     map<int, int> mp;
     for (int i = 1; i <= n; i++)
     {
@@ -45,7 +44,7 @@ void solve()
         {
             int cur = get(i, pos);
             int l = pos, r = n, res = pos;
-            while (l <= r)
+            while (l <= r)`
             {
                 int mid = (l + r) >> 1;
                 if (get(i, mid) == cur)
@@ -60,7 +59,6 @@ void solve()
             pos = res + 1;
         }
     }
-
     int q;
     cin >> q;
     while (q--)
