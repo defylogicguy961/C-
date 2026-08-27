@@ -1,6 +1,6 @@
-# C-- 🧠💻
+# C- 🧠💻
 
-Welcome to **C--**, a personal archive where I store all the programming problems I've solved — and sometimes half-solved (because, hey, we all get lazy 😴). This repo includes my coding journey starting from **Grade 8**, covering problems from various **competitive programming platforms**.
+Welcome to **C-**, a personal archive where I store all the programming problems I've solved — and sometimes half-solved (because, hey, we all get lazy 😴). This repo includes my coding journey starting from **Grade 8**, covering problems from various **competitive programming platforms**.
 
 ---
 
