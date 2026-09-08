@@ -29,9 +29,9 @@ auto operator<<(ostream &os, const T &c) -> typename enable_if<!is_same<T, strin
 #define MOD 1000000007
 #define NAME "SUMTREE"
 
-const int MAXN = 2e5 + 5;
-vector<pair<int, int>> adj[MAXN];
-int sz[MAXN], ans[MAXN], n;
+const int N = 2e5 + 5;
+vector<pair<int, int>> adj[N];
+int sz[N], ans[N], n;
 
 void dfs1(int u, int p)
 {
