@@ -28,7 +28,7 @@ auto operator<<(ostream &os, const T &c) -> typename enable_if<!is_same<T, strin
 #define heap priority_queue
 #define pb push_back
 #define MOD 1000000007
-#define NAME "idk"
+#define NAME "COWGIRL"
 
 void solve()
 {
